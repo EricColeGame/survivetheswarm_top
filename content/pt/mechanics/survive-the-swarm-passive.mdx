@@ -1,0 +1,137 @@
+export const metadata = {
+  title: "Mecânicas Passivas de Survive The Swarm: Guia Definitivo de Habilidades",
+  description: "Domine todas as habilidades passivas de alto nível de Survive The Swarm no Bee Swarm Simulator. Saiba como equipamentos, amuletos e abelhas aumentam sua sobrevivência e coleta de pólen.",
+  category: "mechanics",
+  date: "2026-09-15",
+};
+
+Sobreviver a ondas intensas de monstros e maximizar sua eficiência de farm exige dominar cada efeito **passivo de Survive The Swarm** disponível em seu conjunto de equipamentos. Nas mecânicas modernas de gerenciamento e sobrevivência de enxames, confiar apenas em atributos brutos fará com que sua colmeia tenha um desempenho inferior durante encontros caóticos com chefes e desafios de campo. Equipar as habilidades **passivas de Survive The Swarm** corretas garante que você ative defesas de emergência, faça a rotação de conversões de campo e gere grandes explosões de mel automaticamente, sem interromper o seu fluxo de coleta.
+
+As mecânicas passivas representam uma camada essencial da progressão. Ao contrário das habilidades ativadas manualmente, as passivas funcionam continuamente ou são acionadas assim que você atinge determinados limites de tokens, eventos de combate ou contagens de uso de itens. Entender como esses gatilhos operam permite que você crie sinergias personalizadas para a colmeia, aumentando drasticamente sua capacidade de sobrevivência e escala econômica.
+
+---
+
+## Mecânicas Passivas Centrais: Gatilhos, Acúmulos e Tempos de Recarga
+
+As habilidades passivas operam por meio de contadores em segundo plano dedicados, exibidos perto da barra de atalhos da interface principal. Sempre que você coleta tokens específicos — como Boosts, Marks ou tokens de Combate —, o ícone da passiva correspondente aumenta até atingir seu limite de ativação. Uma vez ativado, o contador é redefinido para zero.
+
+Muitos efeitos avançados de defesa e conversão impõem tempos de recarga internos. Durante o tempo de recarga, o ícone exibe um cronômetro regressivo vermelho durante o qual nenhuma ação fará o contador de gatilho avançar. Além disso, trocar de equipamento na tentativa de ignorar os tempos de recarga aciona um bloqueio inicial, exigindo planejamento tático.
+
+```
+Evento de Gatilho (Tokens / Consumíveis) ──> Limite Atingido ──> Passiva Ativada ──> Tempo de Recarga Interno Aplicado
+```
+
+### Arquitetura de Ativação Passiva
+
+| Componente | Comportamento da UI | Tipo de Gatilho | Comportamento da Recarga |
+| :--- | :--- | :--- | :--- |
+| **Contadores de Tokens** | Número sobreposto no ícone da barra | Coletar tokens de habilidade designados | Redefine para 0 após a ativação |
+| **Procs Diretos** | Efeito de status piscando | Sofrer dano de mobs, ser atingido por drops | Temporizador fixo antes do próximo gatilho |
+| **Procs de Consumíveis** | Contador de acúmulo | Usar itens (Gumdrops, Stingers) | Bloqueios baseados em tempo são aplicados |
+| **Auras Permanentes** | Indicador de status persistente | Presença contínua no campo | Sempre ativo (sem recarga) |
+
+---
+
+## Passivas de Acessórios de Alto Nível e Escudos Defensivos
+
+Opções de equipamentos de mid-game e endgame apresentam passivas integradas projetadas para lidar com combates intensos e mochilas cheias rapidamente. Ao aprender como configurar corretamente uma build **passiva de Survive The Swarm**, ferramentas defensivas como o escudo do Coconut Canister evitam combos fatais de monstros, enquanto máscaras de alto nível fornecem geração de recursos por todo o campo.
+
+De acordo com relatos gerais da comunidade e dados verificados de jogabilidade na [plataforma Roblox](https://www.roblox.com/), acumular melhorias de velocidade de movimento melhora diretamente a consistência de ativação das passivas, permitindo que os jogadores coletem tokens de habilidade dispersos antes que expirem.
+
+### Comparativo das Principais Passivas de Acessórios
+
+| Acessório / Equipamento | Nome da Passiva | Requisito de Gatilho | Efeito Principal e Bônus de Atributos | Tempo de Recarga |
+| :--- | :--- | :--- | :--- | :--- |
+| **Coconut Canister** | Emergency Coconut Shield | Sofrer dano direto de mob | Invoca 5 Cocos, concede 100% de Defesa, +25% de Ataque de Abelha (10s) | 5 Minutos |
+| **Coconut Canister** | Inspire Coconuts | A cada 5º token de Inspire / Estrela | Derruba 5 Cocos caindo no campo atual | Nenhum |
+| **Coconut Clogs / Botas**| Coconut Haste | Ser atingido por um Coco em queda | 1 acúmulo de Haste, 2s de Coconut Surge (+10 Velocidade de Movimento, 1.5x Velocidade de Abelha) | Nenhum |
+| **Demon Mask** | X-Flame | A cada 25º token de Batalha | Gera 29 chamas em formato de X ao redor do jogador | 20 Segundos |
+| **Diamond Mask** | Diamond Drain | A cada 30º token Azul | Converte mais de 5M de pólen instantaneamente; poliniza flores azuis | 45 Segundos |
+| **Gummy Mask** | Gummy Morph | 30 Gumdrops usados / 10 tokens Gummy | Transforma em Gummy Bear (+75% Goo, +100% Conversão Instantânea de Goo) | Nenhum |
+| **Petal Belt** | Petal Storm | A cada 30º token de Boost | Emite 30 shurikens espirais que convertem mais de 10k de pólen por acerto de abelha | 30 Segundos |
+
+### Detalhes de Sinergia de Equipamentos
+
+1. **Rotação Defensiva**: O *Emergency Coconut Shield* concede invulnerabilidade absoluta ao dano de monstros comuns por 10 segundos. Observe que obstáculos de morte instantânea (como Cave Monsters ou kill-bricks específicos) ignoram essa invulnerabilidade, a menos que o escudo tenha sido ativado com antecedência.
+2. **Encadeamento de Mobilidade**: Combinar *Coconut Haste* com o *Goo Trail* de botas de alto nível garante cobertura consistente em área enquanto mantém a máxima mobilidade de combate.
+3. **Chamas e Marcas**: O *X-Flame* da Demon Mask combinado com o *Ignite* da Fire Mask cria amplas zonas de chamas vermelhas, causando dano contínuo em área enquanto converte pólen.
+
+---
+
+## Passivas de Star Amulet: Controle de Campo no Endgame
+
+A obtenção de Supreme Star Amulets desbloqueia habilidades dominantes que alteram o campo. Escolher a **passiva de Survive The Swarm** correta na rolagem do seu amuleto define se sua build se destacará na sobrevivência solo, em boosts cooperativos com múltiplos jogadores ou no farm focado em campos de cores específicas.
+
+### Comparativo de Passivas do Supreme Star Amulet
+
+| Nome da Passiva | Limite de Gatilho | Efeito Primário de Campo | Buffs de Atributos Exclusivos | Tempo de Recarga |
+| :--- | :--- | :--- | :--- | :--- |
+| **Star Saw** | Usar 3 Stingers (o 3º é reembolsado) | Invoca uma lâmina giratória por 30s | Corta monstros (15% de Ataque Total), autoconverte pólen 10x/seg | Nenhum |
+| **Pop Star** | A cada 30º token de Boost | Invoca Pop Star por 45s | 10% Conversão Azul Instantânea, 2x–4.5x Pólen Azul, Bubble Bloat | 60 Segundos |
+| **Scorching Star** | A cada 30º token de Boost | Invoca Scorching Star por 45s | 50% Conversão de Chama Instantânea, 2x–5x Pólen Vermelho, converte a mochila cheia ao final | 60 Segundos |
+| **Gummy Star** | 2% no Gumdrop / 75º uso | Invoca Gummy Star por 45s | 10% Conversão Instantânea de Goo, até 2x Pólen Branco/Goo, explosão de mel | 60 Segundos |
+| **Star Shower** | A cada 40º token de Boost/Mark | 10 estrelas cadentes | Estrelas convertem mais de 1M de pólen, concedem acúmulos de Inspire ao serem pegas | 30 Segundos |
+| **Guiding Star** | A cada 250º token de Boost | Estrela no campo menos usado por 10m | 2.5x Pólen, Capacidade e Taxa de Conversão para o dono | 5 Minutos |
+
+### Mecânicas das Passivas Supreme
+
+- **Star Saw**: Altamente valorizada em desafios de ondas focados em combate. A lâmina elimina lacaios hostis ao redor do modelo do seu personagem enquanto coleta tokens instantaneamente, evitando que sua mochila atinja a capacidade máxima durante encontros de alto dano.
+- **Pop Star**: Impulsiona a progressão de colmeias Azuis acumulando *Bubble Bloat*, o que escala as taxas de conversão da sua colmeia e a capacidade do campo em até 6x por várias horas.
+- **Scorching Star**: A ferramenta definitiva de dano massivo (burst) para colmeias Vermelhas. Ficar perto de chamas ativas faz a estrela se expandir, aumentando as conexões de conversão para até 30 e esvaziando toda a sua mochila diretamente em mel assim que o tempo expira.
+
+---
+
+## Passivas Nativas de Abelhas e Traços Especiais de Combate
+
+Abelhas individuais possuem passivas inatas que funcionam independentemente do seu conjunto de acessórios. Incorporar abelhas com passivas dedicadas de combate e coleta cria um enxame equilibrado e capaz de suportar longas ondas de monstros.
+
+### Lista de Passivas de Abelhas Individuais
+
+| Tipo de Abelha | Nome da Passiva | Chance / Condição de Ativação | Efeito no Jogo |
+| :--- | :--- | :--- | :--- |
+| **Precise Bee** | Sniper | Em combate | Dispara tiros de longo alcance causando 2x de dano; acertos críticos reduzem a recarga em 50%–75% |
+| **Spicy Bee** | Steam Engine | Ativo durante Flame Heat | Aumenta a velocidade de movimento da abelha em até +100% com base no nível de calor |
+| **Buoyant Bee** | Balloon Enthusiast | Ao converter em Balloons | Multiplica a quantidade convertida por 3x; escala o ataque em até 3x com bênção |
+| **Digital Bee** | Drive Expansion | Usar Drives em desafios | Ganha permanentemente atributos de Ataque, Coleta, Conversão e duplicação |
+| **Diamond Bee** | Shimmering Honey | Conversão na colmeia | Concede +25% de mel bônus (+2,5% por nível, dobrado se for Gifted) |
+| **Fuzzy Bee** | Fuzzy Coat | Coletando em flores | Poliniza de 5 a 9 flores ao redor, melhorando canteiros de níveis inferiores |
+| **Shy Bee** | Nectar Lover | Coleta em plantadores | 2x mais chance de sugar plantadores; dobra a absorção de néctar e o crescimento do plantador |
+
+### Estratégia de Sinergia do Enxame
+
+Para obter os melhores resultados com a sua configuração **passiva de Survive The Swarm**, combine as passivas das suas abelhas com as mecânicas do seu equipamento:
+
+1. **Sinergia Sniper**: Precise Bees de alto nível mantêm o engajamento a uma distância segura, desferindo acertos críticos que eliminam monstros resistentes antes que entrem no alcance do seu escudo.
+2. **Procs de Coleta**: Tadpole e Bubble Bees criam bolhas de água (35%–85% de chance) que sinergizam com Bubble Bombs e Pop Star.
+3. **Motores de Chamas**: Acumular Spicy e Demon Bees gera um tapete contínuo de chamas, alimentando constantemente os gatilhos de *Scorching Star* e *X-Flame*.
+
+---
+
+## Otimização Estratégica para Sobrevivência do Enxame
+
+Maximizar o seu tempo de atividade operacional requer sincronizar as passivas dos equipamentos com rotações de campo ativas. Ao lidar com desafios difíceis, manter os tempos de sobrevivência alinhados evita mortes inesperadas.
+
+### Ciclo Passo a Passo de Combate e Coleta
+
+1. **Fase de Pré-Buff**: Certifique-se de que seus contadores de tokens passivos estejam próximos dos limites de ativação antes de iniciar um desafio de chefe.
+2. **Preparação Defensiva**: Se for entrar em uma sala com alta densidade de monstros, receba um dano leve para ativar o *Emergency Coconut Shield*, garantindo 10 segundos de 100% de defesa e bônus de ataque para as abelhas.
+3. **Aspiração de Tokens**: Use *Star Saw* ou alta velocidade de movimento para varrer tokens de Boost e Mark, ativando imediatamente as recargas de *Petal Storm* e *X-Flame*.
+4. **Gerenciamento de Capacidade**: Monitore os temporizadores do seu *Diamond Drain* ou *Scorching Star* para converter mochilas cheias instantaneamente, sem precisar retornar à sua colmeia base.
+
+Implementar uma organização **passiva de Survive The Swarm** otimizada garante um farm de recursos fluido, alta resiliência em combate e máxima eficiência em todos os níveis de jogo.
+
+---
+
+## Perguntas Frequentes (FAQ)
+
+### Qual é a passiva de Survive The Swarm defensiva mais eficaz para lutas contra chefes?
+O *Emergency Coconut Shield* (concedido pelo Coconut Canister) é amplamente considerado a melhor passiva defensiva. Ele fornece 100% de defesa por 10 segundos e aumenta o poder de ataque das abelhas em 25% sempre que você sofre dano direto de monstros, dando tempo suficiente para eliminar ameaças.
+
+### É possível ignorar os tempos de recarga de habilidades passivas desequipando itens?
+Não. Equipar um acessório com uma passiva ativa aplica um tempo de bloqueio inicial igual ao seu tempo de recarga padrão. Essa mecânica impede que os jogadores troquem de equipamento rapidamente para burlar as restrições de recarga.
+
+### Como a Star Saw me ajuda a sobreviver a enxames perigosos de monstros?
+A *Star Saw* invoca uma lâmina giratória de alta velocidade ao redor do modelo do seu jogador por 30 segundos após usar 3 Stingers. Ela causa dano contínuo a monstros hostis próximos com base no poder de ataque e nível da sua colmeia, enquanto coleta tokens de habilidade e converte pólen instantaneamente.
+
+### Os efeitos passivos escalam com tipos de abelhas Gifted?
+Sim. Muitas passivas escalam diretamente com abelhas Gifted. Por exemplo, o *Diamond Drain* aumenta seu poder de conversão com base nos tipos de abelhas Azuis Gifted que você possui, enquanto o *Fuzzy Coat* aprimora até 9 flores simultaneamente quando a Fuzzy Bee é Gifted.

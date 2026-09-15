@@ -1,0 +1,137 @@
+export const metadata = {
+  title: "Mecánicas pasivas de Survive The Swarm: Guía definitiva de habilidades",
+  description: "Domina cada habilidad pasiva de alto nivel en Survive The Swarm en Bee Swarm Simulator. Aprende cómo el equipo, los amuletos y las abejas mejoran tu supervivencia y producción de polen.",
+  category: "mechanics",
+  date: "2026-09-15",
+};
+
+Sobrevivir a oleadas de enemigos de alta intensidad y maximizar tu eficiencia de farmeo requiere dominar cada efecto pasivo crítico de **Survive The Swarm passive** disponible en tu equipamiento. En las mecánicas modernas de supervivencia y gestión de enjambres, confiar únicamente en las estadísticas brutas dejará a tu colmena con un rendimiento inferior durante los caóticos encuentros con jefes y desafíos de campo. Equipar las habilidades pasivas adecuadas de **Survive The Swarm passive** garantiza que actives defensas de emergencia, encadenes conversiones de campo y generes ráfagas masivas de miel automáticamente sin interrumpir tu ritmo de recolección.
+
+Las mecánicas pasivas representan una capa fundamental de progresión. A diferencia de las habilidades activadas manualmente, las pasivas funcionan de forma continua o se activan una vez que cumples con umbrales específicos de fichas (tokens), eventos de combate o recuentos de uso de objetos. Comprender cómo operan estos activadores te permite diseñar sinergias de colmena personalizadas que aumentan drásticamente tu supervivencia y escalado económico.
+
+---
+
+## Mecánicas pasivas básicas: Activadores, acumulaciones y enfriamientos
+
+Las habilidades pasivas operan a través de contadores dedicados en segundo plano que se muestran cerca de la barra de acceso rápido de tu interfaz principal. Cada vez que recolectas fichas específicas —como Boosts, Marks o fichas de combate—, el icono pasivo correspondiente se incrementa hasta alcanzar su umbral de activación. Una vez activado, el contador se reinicia a cero.
+
+Muchos efectos avanzados de defensa y conversión aplican enfriamientos internos (cooldowns). Mientras está en enfriamiento, el icono muestra un temporizador rojo de cuenta regresiva durante el cual ninguna acción avanzará el contador de activación. Además, cambiar de equipo en un intento de eludir los tiempos de enfriamiento aplica un bloqueo inicial, lo que obliga a una planificación táctica.
+
+```
+Evento activador (Fichas / Consumibles) ──> Umbral alcanzado ──> La pasiva se activa ──> Enfriamiento interno aplicado
+```
+
+### Arquitectura de activación de pasivas
+
+| Componente | Comportamiento en la interfaz | Tipo de activación | Comportamiento del enfriamiento |
+| :--- | :--- | :--- | :--- |
+| **Contadores de fichas** | Superposición numérica en el icono de la barra de acceso rápido | Recolectar fichas de habilidad designadas | Se reinicia a 0 tras la activación |
+| **Procs directos** | Efecto de estado parpadeante | Recibir daño de enemigos, ser golpeado por proyectiles/gotas | Temporizador fijo antes de la siguiente activación |
+| **Procs de consumibles** | Contador acumulativo | Usar objetos (Gumdrops, Stingers) | Se aplican bloqueos basados en temporizadores |
+| **Auras permanentes** | Indicador de estado persistente | Presencia continua en el campo | Siempre activo (sin enfriamiento) |
+
+---
+
+## Pasivas de accesorios de nivel alto y escudos defensivos
+
+Las opciones de equipo de mitad y final del juego cuentan con pasivas integradas diseñadas para manejar combates intensos y llenados rápidos de mochila. Al aprender a configurar adecuadamente una combinación pasiva de **Survive The Swarm passive**, las herramientas defensivas como el escudo del Coconut Canister evitan combos letales de los enemigos, mientras que las máscaras de nivel alto proporcionan generación de recursos en todo el campo.
+
+Según los informes generales de la comunidad y los datos de juego verificados en la [plataforma Roblox](https://www.roblox.com/), acumular mejoras de velocidad de movimiento optimiza directamente la consistencia de activación de las pasivas al permitir que los jugadores recolecten fichas de habilidad dispersas antes de que expiren.
+
+### Comparativa de pasivas de accesorios principales
+
+| Accesorio / Equipo | Nombre de la pasiva | Requisito de activación | Efecto principal y bonificaciones de estadísticas | Enfriamiento |
+| :--- | :--- | :--- | :--- | :--- |
+| **Coconut Canister** | Emergency Coconut Shield | Recibir daño directo de un enemigo | Invoca 5 cocos, otorga 100% de defensa, +25% de ataque de abejas (10s) | 5 Minutos |
+| **Coconut Canister** | Inspire Coconuts | Cada 5.ª ficha de Inspire / Star | Deja caer 5 cocos en el campo actual | Ninguno |
+| **Coconut Clogs / Boots**| Coconut Haste | Ser golpeado por un coco que cae | 1 acumulación de Haste, 2s de Coconut Surge (+10 velocidad de movimiento, 1.5x velocidad de abejas) | Ninguno |
+| **Demon Mask** | X-Flame | Cada 25.ª ficha de Battle | Genera 29 llamas en forma de X alrededor del jugador | 20 Segundos |
+| **Diamond Mask** | Diamond Drain | Cada 30.ª ficha azul | Convierte más de 5M de polen al instante; poliniza flores azules | 45 Segundos |
+| **Gummy Mask** | Gummy Morph | 30 Gumdrops usados / 10 fichas Gummy | Se transforma en Gummy Bear (+75% Goo, +100% conversión instantánea de Goo) | Ninguno |
+| **Petal Belt** | Petal Storm | Cada 30.ª ficha de Boost | Emite 30 shurikens en espiral que convierten más de 10k de polen por impacto de abeja | 30 Segundos |
+
+### Detalles de sinergia de equipo
+
+1. **Rotación defensiva**: El *Emergency Coconut Shield* proporciona invulnerabilidad absoluta al daño regular de enemigos durante 10 segundos. Ten en cuenta que los obstáculos de muerte instantánea (como los Cave Monsters o bloques letales específicos) ignoran esta invulnerabilidad a menos que el escudo se active de antemano.
+2. **Encadenamiento de movilidad**: Combinar *Coconut Haste* con el *Goo Trail* de las botas de nivel alto garantiza una cobertura constante de área de efecto mientras mantienes la máxima maniobrabilidad en combate.
+3. **Llamas y marcas**: El *X-Flame* de la Demon Mask combinado con el *Ignite* de la Fire Mask crea extensas zonas de fuego rojo, infligiendo daño de área continuo mientras convierte polen.
+
+---
+
+## Pasivas de Star Amulet: Control de campo en el endgame
+
+Obtener Supreme Star Amulets desbloquea habilidades dominantes que alteran el campo de juego. Elegir la pasiva correcta de **Survive The Swarm passive** en la tirada de tu amuleto define si tu configuración destaca en supervivencia en solitario, potenciaciones cooperativas multijugador o farmeo dedicado en campos de un color específico.
+
+### Comparativa de pasivas de Supreme Star Amulet
+
+| Nombre de la pasiva | Umbral de activación | Efecto de campo principal | Mejoras de estadísticas únicas | Enfriamiento |
+| :--- | :--- | :--- | :--- | :--- |
+| **Star Saw** | Usar 3 Stingers (el 3.° se reembolsa) | Invoca una cuchilla giratoria durante 30s | Corta enemigos (15% del ataque total), autoconvierte polen 10x/seg | Ninguno |
+| **Pop Star** | Cada 30.ª ficha de Boost | Invoca una Pop Star durante 45s | 10% conversión azul instantánea, 2x–4.5x polen azul, Bubble Bloat | 60 Segundos |
+| **Scorching Star** | Cada 30.ª ficha de Boost | Invoca una Scorching Star durante 45s | 50% conversión de llamas instantánea, 2x–5x polen rojo, convierte la mochila llena al final | 60 Segundos |
+| **Gummy Star** | 2% por Gumdrop / 75.° uso | Invoca una Gummy Star durante 45s | 10% conversión instantánea de Goo, hasta 2x polen blanco/Goo, ráfaga de miel | 60 Segundos |
+| **Star Shower** | Cada 40.ª ficha de Boost/Mark | 10 estrellas fugaces que caen | Las estrellas convierten más de 1M de polen, otorgan acumulaciones de Inspire al atraparlas | 30 Segundos |
+| **Guiding Star** | Cada 250.ª ficha de Boost | Estrella en el campo menos utilizado durante 10m | 2.5x polen, capacidad y tasa de conversión para el dueño | 5 Minutos |
+
+### Mecánicas de pasivas supremas
+
+- **Star Saw**: Muy valorada en desafíos de oleadas con gran carga de combate. La cuchilla elimina esbirros hostiles alrededor del modelo de tu personaje mientras recolecta fichas instantáneamente, evitando que tu mochila se llene al máximo durante encuentros de alto daño.
+- **Pop Star**: Impulsa la progresión de colmenas azules al acumular *Bubble Bloat*, lo que escala tus tasas de conversión en la colmena y la capacidad de campo hasta 6x durante varias horas.
+- **Scorching Star**: La herramienta de ráfaga definitiva para colmenas rojas. Quedarse cerca de llamas activas hace que la estrella se expanda, aumentando los enlaces de conversión hasta 30 y vaciando toda tu mochila directamente en miel una vez que el temporizador finaliza.
+
+---
+
+## Pasivas innatas de abejas y rasgos especiales de combate
+
+Las abejas individuales poseen pasivas innatas que funcionan independientemente de tu equipamiento de accesorios. Incorporar abejas con pasivas dedicadas al combate y la recolección construye un enjambre equilibrado capaz de resistir largas oleadas de enemigos.
+
+### Lista de pasivas de abejas individuales
+
+| Tipo de abeja | Nombre de la pasiva | Probabilidad / Condición de activación | Efecto en el juego |
+| :--- | :--- | :--- | :--- |
+| **Precise Bee** | Sniper | En combate | Dispara tiros de largo alcance que infligen 2x de daño; los críticos reducen la recarga en un 50%–75% |
+| **Spicy Bee** | Steam Engine | Activo durante Flame Heat | Aumenta la velocidad de movimiento de la abeja hasta +100% según el nivel de calor |
+| **Buoyant Bee** | Balloon Enthusiast | Al convertir en globos | Multiplica la cantidad convertida por 3x; escala el ataque hasta 3x con la bendición |
+| **Digital Bee** | Drive Expansion | Al usar Drives en desafíos | Gana permanentemente estadísticas de ataque, recolección, conversión y duplicación |
+| **Diamond Bee** | Shimmering Honey | Conversión en la colmena | Otorga +25% de miel adicional (+2.5% por nivel, duplicado si es Gifted) |
+| **Fuzzy Bee** | Fuzzy Coat | Recolectando en flores | Poliniza de 5 a 9 flores circundantes, mejorando parches de menor nivel |
+| **Shy Bee** | Nectar Lover | Al libar de jardineras (planters) | 2x más de probabilidad de libar de jardineras; duplica la ingesta de néctar y el crecimiento de la jardinera |
+
+### Estrategia de sinergia del enjambre
+
+Para lograr los mejores resultados con tu configuración de **Survive The Swarm passive**, combina las pasivas de tus abejas con las mecánicas de tu equipo:
+
+1. **Sinergia Sniper**: Las Precise Bees de alto nivel mantienen una distancia de enfrentamiento segura, infligiendo golpes críticos que eliminan a los enemigos difíciles antes de que alcancen el rango de tu escudo.
+2. **Procs de recolección**: Las Tadpole y Bubble Bees crean burbujas de agua (35%–85% de probabilidad) que se sincronizan con las Bubble Bombs y Pop Star.
+3. **Motores de fuego**: Acumular Spicy y Demon Bees genera un manto continuo de llamas, alimentando constantemente las activaciones de tu *Scorching Star* y *X-Flame*.
+
+---
+
+## Optimización estratégica para la supervivencia del enjambre
+
+Maximizar tu tiempo de actividad operativa requiere sincronizar las pasivas de tu equipo con rotaciones de campo activas. Al enfrentarte a desafíos difíciles, mantener alineados tus temporizadores de supervivencia previene muertes inesperadas.
+
+### Ciclo paso a paso de combate y recolección
+
+1. **Fase de preparación de mejoras (Pre-Buff)**: Asegúrate de que los contadores de fichas pasivas estén cerca de sus umbrales de activación antes de iniciar un desafío de jefe.
+2. **Preparación defensiva**: Si entras en una sala con alta densidad de enemigos, permite recibir un golpe menor para activar el *Emergency Coconut Shield*, lo que otorga 10 segundos de 100% de defensa y ataque adicional para las abejas.
+3. **Aspirado de fichas**: Usa *Star Saw* o una alta velocidad de movimiento para barrer fichas de Boost y Mark, reduciendo al instante los enfriamientos de tu *Petal Storm* y *X-Flame*.
+4. **Gestión de capacidad**: Monitorea los temporizadores de *Diamond Drain* o *Scorching Star* para convertir mochilas llenas de inmediato sin tener que regresar a tu colmena base.
+
+Implementar una distribución optimizada de **Survive The Swarm passive** garantiza un farmeo fluido de recursos, alta resistencia en combate y la máxima eficiencia en todos los niveles de juego.
+
+---
+
+## Preguntas frecuentes
+
+### ¿Cuál es la pasiva defensiva de Survive The Swarm más eficaz para las batallas contra jefes?
+El *Emergency Coconut Shield* (otorgado por el Coconut Canister) es considerado ampliamente como la mejor pasiva defensiva. Proporciona 100% de defensa durante 10 segundos y aumenta el poder de ataque de las abejas en un 25% cada vez que recibes daño directo de un enemigo, dándote tiempo suficiente para eliminar las amenazas.
+
+### ¿Se pueden evitar los tiempos de enfriamiento de las habilidades pasivas desequipando objetos?
+No. Equipar un accesorio con una pasiva activa aplica un temporizador de bloqueo inicial equivalente a su tiempo de enfriamiento estándar. Esta mecánica evita que los jugadores cambien de equipo rápidamente para eludir las restricciones de enfriamiento.
+
+### ¿Cómo me ayuda Star Saw a sobrevivir a enjambres peligrosos de enemigos?
+*Star Saw* invoca una cuchilla giratoria de alta velocidad alrededor del modelo de tu jugador durante 30 segundos tras usar 3 Stingers. Inflige daño continuo a los enemigos hostiles cercanos según el poder de ataque y nivel de tu colmena, mientras recolecta fichas de habilidad y convierte polen al instante.
+
+### ¿Los efectos pasivos escalan con tipos de abejas Gifted?
+Sí. Muchas pasivas escalan directamente con las abejas Gifted. Por ejemplo, *Diamond Drain* incrementa su poder de conversión según tus tipos de abejas azules Gifted, mientras que *Fuzzy Coat* mejora hasta 9 flores simultáneamente cuando Fuzzy Bee es Gifted.

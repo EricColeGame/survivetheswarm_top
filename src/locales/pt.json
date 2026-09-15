@@ -1,38 +1,30 @@
 {
   "site": {
     "name": "Survive The Swarm Wiki",
-    "shortName": "My Seafood Stand",
-    "tagline": "Guias Completos, Códigos, Receitas e Tier Lists",
-    "description": "Seu guia definitivo para My Seafood Stand no Roblox! Descubra códigos ativos, receitas de frutos do mar, melhores melhorias, estratégias de lucro e guias de progressão.",
-    "legalNotice": "Wiki não oficial feita por fãs. Criada por jogadores, para jogadores."
+    "shortName": "Survive The Swarm",
+    "description": "Your ultimate guide to Survive The Swarm on Roblox! Explore active working codes, hero abilities, weapon upgrades, survival builds, and progression guides."
   },
   "nav": {
-    "races": "Raças",
-    "bosses": "Chefes",
-    "guides": "Guias",
+    "guide": "Guia",
+    "builds": "Builds",
     "codes": "Códigos",
-    "tierList": "Tier List",
-    "maps": "Mapas",
-    "skills": "Habilidades",
-    "updates": "Atualizações",
-    "home": "Início",
-    "menu": "Menu",
+    "combat": "Combate",
+    "controls": "Controles",
+    "mechanics": "Mecânicas",
+    "modes": "Modos",
     "toggleTheme": "Alternar tema",
-    "guide": "Guias",
-    "seafood": "Frutos do Mar e Receitas",
-    "upgrades": "Melhorias",
-    "gamepasses": "Gamepasses",
-    "community": "Comunidade"
+    "menu": "Menu",
+    "home": "Início"
   },
   "home": {
     "meta": {
       "title": "Survive The Swarm Wiki — Códigos, Receitas, Melhorias e Guias",
-      "description": "Guia completo de My Seafood Stand no Roblox com códigos ativos válidos, todos os peixes e receitas, tier list das melhores melhorias e dicas para ganhar dinheiro rápido."
+      "description": "Guia completo de Survive The Swarm no Roblox com códigos ativos válidos, todos os peixes e receitas, tier list das melhores melhorias e dicas para ganhar dinheiro rápido."
     },
     "hero": {
       "eyebrow": "Wiki da Comunidade Criada por Fãs",
-      "title": "My Seafood Stand",
-      "description": "Domine seu restaurante em My Seafood Stand no Roblox. Acesse todos os códigos ativos, catálogo completo de peixes e receitas, melhores melhorias e estratégias profissionais para lucrar.",
+      "title": "Survive The Swarm Wiki",
+      "description": "Survive The Swarm é um roguelike de ação e sobrevivência eletrizante no Roblox onde você enfrenta hordas infinitas de inimigos letais, desbloqueia heróis exterminadores, evolui armas e cria builds imbatíveis.",
       "stats": [
         "Todos os Códigos",
         "Todos os Peixes e Receitas",
@@ -42,7 +34,10 @@
       "primaryCta": "Guia para Iniciantes",
       "secondaryCta": "Tier List de Frutos do Mar",
       "tertiaryCta": "Códigos Ativos",
-      "videoLabel": "Mídia oficial"
+      "videoLabel": "Mídia oficial",
+      "badge": "Jogo de Ação Roguelike de Sobrevivência no Roblox",
+      "ctaPrimary": "Explorar Guias",
+      "ctaSecondary": "Ver Códigos"
     },
     "updates": {
       "title": "Últimas Atualizações",
@@ -51,27 +46,27 @@
     },
     "start": {
       "eyebrow": "Comece Aqui",
-      "title": "Sua Jornada em My Seafood Stand",
+      "title": "Sua Jornada em Survive The Swarm",
       "cards": [
         {
           "number": "1",
-          "title": "Guia para Iniciantes",
-          "description": "Domine o Mundo Espiritual desde o primeiro dia com nosso guia completo para iniciantes, cobrindo controles, combate e progressão inicial."
+          "title": "Guia de Iniciantes",
+          "description": "Aprenda a mecânica básica de sobrevivência, controles principais e como sobreviver aos seus primeiros 6 minutos contra o enxame."
         },
         {
           "number": "2",
-          "title": "Subir de Nível Mais Rápido",
-          "description": "Domine o início do jogo e alcance o nível máximo rapidamente com as rotas e estratégias de nivelamento mais eficientes."
+          "title": "Melhores Builds e Upgrades",
+          "description": "Descubra as melhores combinações de armas, sinergias passivas e árvores de evolução."
         },
         {
           "number": "3",
-          "title": "Melhores Locais de Farm",
-          "description": "Maximize seus ganhos de Soul Essence e EXP com locais de farm ideais para cada estágio."
+          "title": "Códigos Promocionais Ativos",
+          "description": "Resgate códigos válidos para ganhar gemas grátis, moedas e bônus exclusivos para acelerar sua progressão."
         },
         {
           "number": "4",
-          "title": "Como Extrair",
-          "description": "Aprenda os melhores métodos e locais para extrair recursos em My Seafood Stand."
+          "title": "Táticas contra Chefes",
+          "description": "Domine os padrões de ataque e posicionamento para derrotar ondas difíceis de chefes."
         }
       ]
     },
@@ -142,10 +137,10 @@
       ]
     },
     "aboutGame": {
-      "title": "O que é My Seafood Stand?",
+      "title": "O que é Survive The Swarm?",
       "paragraphs": [
-        "My Seafood Stand é um RPG de luta estilizado no Roblox inspirado no universo do anime Bleach. Escolha entre três raças jogáveis — Shinigami, Quincy ou Hollow —, cada uma com sistemas de progressão exclusivos, habilidades desbloqueáveis e caminhos de evolução. Domine mais de 130 habilidades enquanto luta até atingir o nível máximo de 100.",
-        "Seja desbloqueando sua primeira Shikai, evoluindo de um Hollow básico para um Arrancar ou concluindo missões de Tenente Quincy, nossa wiki cobre todos os sistemas com guias detalhados, tabelas de dados e tutoriais passo a passo."
+        "Survive The Swarm é um intenso jogo de sobrevivência roguelike no Roblox desenvolvido pela GeekOut Studio. Os jogadores devem enfrentar hordas implacáveis de criaturas alienígenas, coletar cristais de experiência e evoluir armas.",
+        "Com múltiplas classes de heróis, diversas melhorias e sinergias elementais profundas, cada partida testa suas decisões e estratégias de sobrevivência."
       ],
       "stats": [
         {
@@ -185,7 +180,7 @@
       "modules": [
         {
           "order": 1,
-          "name": "Códigos Válidos de My Seafood Stand",
+          "name": "Códigos Válidos de Survive The Swarm",
           "description": "Resgate os códigos ativos mais recentes para garantir moedas grátis, gemas, cosméticos exclusivos e itens de boost antes que expirem.",
           "href": "/codes/my-seafood-stand-codes",
           "displayType": "code-box",
@@ -317,49 +312,37 @@
     },
     "faq": {
       "title": "Perguntas Frequentes",
-      "description": "Respostas rápidas para as dúvidas mais comuns sobre My Seafood Stand.",
+      "description": "Respostas rápidas para as dúvidas mais comuns sobre Survive The Swarm no Roblox.",
       "items": [
         {
-          "question": "O que é My Seafood Stand?",
-          "answer": "My Seafood Stand é um RPG de luta gratuito no Roblox baseado no anime Bleach. Você escolhe uma das mecânicas de jogo: Shinigami (Ceifador de Almas), Quincy ou Hollow, cada uma com sistemas únicos de progressão, habilidades de combate e evolução. O jogo conta com mais de 130 habilidades, nível máximo 100, lutas contra chefes e profunda personalização de builds."
+          "question": "O que é Survive The Swarm?",
+          "answer": "Survive The Swarm é um jogo roguelike de ação e sobrevivência no Roblox onde os jogadores combatem enxames alienígenas infinitos e buscam sobreviver o maior tempo possível."
         },
         {
-          "question": "Qual raça os iniciantes devem escolher?",
-          "answer": "Shinigami é a raça inicial mais direta e simples, enquanto Hollow e Quincy oferecem rotas de progressão mais especializadas. Compare suas habilidades antes de fazer sua escolha."
+          "question": "Como resgatar códigos em Survive The Swarm?",
+          "answer": "Abra o jogo no Roblox, localize o ícone de Códigos na tela, insira o código ativo e clique em Resgatar."
         },
         {
-          "question": "Qual é o nível máximo atual?",
-          "answer": "O nível máximo atual é 100, com mais de 130 habilidades disponíveis entre árvores de habilidades e sistemas de progressão de raças."
+          "question": "Quais as melhores armas e builds?",
+          "answer": "Armas com alto dano em área (AoE) combinadas com redução de recarga e velocidade de movimento são ideais para limpar grandes hordas."
         },
         {
-          "question": "Onde encontro códigos ativos?",
-          "answer": "Acesse a página de Códigos para ver códigos válidos, recompensas, notas de expiração e instruções de resgate."
+          "question": "Como funcionam as evoluções de armas?",
+          "answer": "Ao maximizar uma arma base possuindo o item passivo correspondente, sua arma evolui para uma versão ultra poderosa."
         },
         {
-          "question": "Os guias de chefes estão atualizados?",
-          "answer": "As páginas de chefes são organizadas com notas de spawn, padrões de ataque, estratégias, tabelas de drops e próximos passos de progressão."
+          "question": "Survive The Swarm é gratuito?",
+          "answer": "Sim, Survive The Swarm é totalmente gratuito para jogar no Roblox em PC, celulares e consoles."
         }
       ]
     },
     "finalCta": {
-      "title": "Pronto para Dominar My Seafood Stand?",
-      "description": "Dos seus primeiros passos em Fort Adams até as lutas contra chefes no endgame — nossa wiki da comunidade traz tudo o que você precisa com guias gratuitos e atualizados.",
+      "title": "Pronto para Sobreviver ao Enxame?",
+      "description": "Junte-se a milhares de jogadores, otimize suas builds e derrote o enxame supremo.",
       "primary": "Ler o Guia para Iniciantes",
-      "secondary": "Jogar no Roblox"
+      "secondary": "Jogar no Roblox",
+      "button": "Jogar Survive The Swarm"
     }
-  },
-  "bosses": {
-    "meta": {
-      "title": "Chefes — Guia Completo e Detalhado | Survive The Swarm Wiki",
-      "description": "Guias completos de chefes para My Seafood Stand — todos os chefes, desde o cavaleiro Gelum no tutorial até confrontos de endgame, com estratégias, drops e tempos de respawn."
-    },
-    "overviewTitle": "Visão Geral dos Chefes",
-    "overviewDescription": "Guias completos para todos os confrontos de chefes em My Seafood Stand — 13 chefes, desde o cavaleiro do tutorial Gelum até confrontos de endgame como Gelid Dweller e desafios de Gauntlet.",
-    "body": "Os chefes em My Seafood Stand servem como testes de habilidade e marcos de progressão. Alguns, como Gelum, ensinam os fundamentos do combate durante o tutorial. Outros, como o Espírito Shikai e o Espírito Resurrección, são encontros no mundo interior diretamente ligados ao desbloqueio de poder da sua raça. Chefes de área como Dragonfly, King Croc e Securis guardam o acesso a novas zonas e recompensas. As adições recentes incluem o Rogue Commander com seus Minions, o temático de gelo The Everfrosted e quatro novos chefes de endgame: The Gelid Dweller, Cinder of the Broken Sky, Devourer of Hosts e o Wandering Swordsman (Junichiro). Cada chefe possui padrões de ataque distintos e movimentos telegrafados que você precisa aprender. Use os guias abaixo para se preparar para cada luta.",
-    "guidesTitle": "Guias de Chefes",
-    "readMore": "Ler mais",
-    "new": "Novo",
-    "popular": "Popular"
   },
   "shared": {
     "wikiNavigation": "Navegação da Wiki",
@@ -386,7 +369,7 @@
     "legal": "Legal",
     "copyright": "2026 Survive The Swarm Wiki. Não afiliado à Midnight Continent ou ao Roblox.",
     "description": "RPG de luta gratuito no Roblox inspirado em Bleach. 3 raças, mais de 130 habilidades, Nív. 100 máx.",
-    "playGame": "Jogar My Seafood Stand",
+    "playGame": "Jogar Survive The Swarm",
     "officialDiscord": "Discord Oficial",
     "officialYoutube": "YouTube Oficial",
     "vvBuilder": "VV Builder (Planejador de Habilidades)",
@@ -396,5 +379,61 @@
     "buildGuide": "Guia de Builds",
     "privacyPolicy": "Política de Privacidade",
     "termsOfService": "Termos de Serviço"
+  },
+  "guide": {
+    "meta": {
+      "title": "Survive The Swarm Guides & Walkthroughs",
+      "description": "Master Survive The Swarm with comprehensive beginner guides, survival tips, and progression walkthroughs."
+    },
+    "overviewTitle": "Guides & Walkthroughs",
+    "overviewDescription": "Step-by-step survival guides, beginner tips, and strategies to conquer every wave in Survive The Swarm."
+  },
+  "builds": {
+    "meta": {
+      "title": "Survive The Swarm Builds & Weapon Tier Lists",
+      "description": "Discover the best character builds, weapon combinations, evolutions, and upgrade paths in Survive The Swarm."
+    },
+    "overviewTitle": "Builds & Upgrades",
+    "overviewDescription": "Optimized character builds, synergy combinations, and weapon tier lists for maximum survival."
+  },
+  "codes": {
+    "meta": {
+      "title": "Survive The Swarm Active Codes",
+      "description": "Get the latest working Survive The Swarm codes for free gems, coins, boosts, and exclusive rewards."
+    },
+    "overviewTitle": "Active Working Codes",
+    "overviewDescription": "Redeem active promo codes for free in-game currency, weapons, and upgrade resources."
+  },
+  "combat": {
+    "meta": {
+      "title": "Survive The Swarm Combat & Boss Guides",
+      "description": "Learn combat strategies, boss fight tactics, and wave survival techniques in Survive The Swarm."
+    },
+    "overviewTitle": "Combat & Boss Tactics",
+    "overviewDescription": "Detailed breakdown of enemy attack patterns, boss mechanics, and damage optimization tips."
+  },
+  "controls": {
+    "meta": {
+      "title": "Survive The Swarm Controls & Gameplay Mechanics",
+      "description": "Keybindings, mobile controls, and movement mechanics for Survive The Swarm on PC and Mobile."
+    },
+    "overviewTitle": "Controls & Keybindings",
+    "overviewDescription": "Complete guide to keybindings, sensitivity settings, and movement techniques for all platforms."
+  },
+  "mechanics": {
+    "meta": {
+      "title": "Survive The Swarm Game Mechanics & Systems",
+      "description": "Deep dive into difficulty scaling, wave spawns, passive skills, and progression mechanics."
+    },
+    "overviewTitle": "Game Mechanics & Systems",
+    "overviewDescription": "Understand game rules, spawn timers, passive abilities, and hidden progression systems."
+  },
+  "modes": {
+    "meta": {
+      "title": "Survive The Swarm Game Modes & Challenges",
+      "description": "Explore Endless Mode, Challenge Mode, difficulty rounds, and special events in Survive The Swarm."
+    },
+    "overviewTitle": "Game Modes & Challenges",
+    "overviewDescription": "Comprehensive overview of all game modes, rules, and exclusive rewards."
   }
 }
