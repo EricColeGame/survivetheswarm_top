@@ -27,26 +27,19 @@
       "badge": "Roblox Survival Roguelike Action Game",
       "title": "Survive The Swarm Wiki",
       "description": "Survive The Swarm is a fast-paced Roblox survival action roguelike where you battle endless waves of deadly enemies, unlock powerful exterminator heroes, evolve weapons, and create unstoppable builds.",
-      "stats": {
-        "stat1": {
-          "value": "Regular",
-          "label": "Updates"
-        },
-        "stat2": {
-          "value": "7+",
-          "label": "Categories"
-        },
-        "stat3": {
-          "value": "Active",
-          "label": "Codes"
-        },
-        "stat4": {
-          "value": "100%",
-          "label": "Free Guide"
-        }
-      },
+      "stats": [
+        "Working Codes",
+        "Beginner Guides",
+        "Weapon Evolutions",
+        "Boss Survival"
+      ],
       "ctaPrimary": "Explore Guides",
-      "ctaSecondary": "View Codes"
+      "ctaSecondary": "View Codes",
+      "eyebrow": "Roblox Survival Roguelike Action Game",
+      "primaryCta": "Explore Guides",
+      "secondaryCta": "View Codes",
+      "tertiaryCta": "Play on Roblox",
+      "videoLabel": "Official Trailer"
     },
     "updates": {
       "title": "Latest Updates",
